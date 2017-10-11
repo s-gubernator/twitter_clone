@@ -32,6 +32,15 @@ textarea {
   }
 }
 
+.btn-primary {
+border-bottom: 2px #000609 solid;
+background: #005888;
+}
+.btn-primary:hover {
+background: #0079bb;
+}
+
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
