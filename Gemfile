@@ -13,8 +13,9 @@ gem 'rails', '~> 5.1.4'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
-
 gem 'bootstrap-sass', '3.3.7'
+
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

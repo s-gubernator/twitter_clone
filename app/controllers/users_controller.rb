@@ -9,15 +9,14 @@ class UsersController < ApplicationController
   end
 
   def show
-  	@user = User.find(params[:id])
+  	@user = User.find(params[:id])    
     # binding.pry
   end
   
   def create  	
     @user = User.new(user_params)
     if @user.save
-      flash[:success] = "Welcome to ToDo App!"
-      # session[user_id] = @user.id
+      flash[:success] = "Welcome to ToDo App!"      
       redirect_to @user
     else
       render 'new'

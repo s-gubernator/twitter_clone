@@ -35,9 +35,10 @@ textarea {
 .btn-primary {
 border-bottom: 2px #000609 solid;
 background: #005888;
-}
-.btn-primary:hover {
-background: #0079bb;
+&:hover {
+    border-bottom: 2px #000609 solid;
+    background: #22485F;    
+  }
 }
 
 
@@ -87,6 +88,10 @@ p {
     color: white;
     text-decoration: none;
   }
+}
+ 
+.dropdown-toggle:active, .open .dropdown-toggle {
+  background-color: #22485f !important;
 }
 
 /* footer */
@@ -178,6 +183,12 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+.form_container {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
 }
 
 /* miscellaneous */
