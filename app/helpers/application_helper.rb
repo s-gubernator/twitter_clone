@@ -1,5 +1,10 @@
 module ApplicationHelper
-	def title(title)
-		content_for(:title){"#{title} | "}	
-	end
+	def full_title(page_title = '')
+    base_title = "ToDo"
+    if page_title.empty?
+      base_title
+    else
+      page_title + " | " + base_title
+    end
+  end
 end

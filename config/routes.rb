@@ -4,6 +4,5 @@ Rails.application.routes.draw do
 
   get  'pages/:page', to: 'pages#show', as: 'page'
   get  '/signup', to: 'users#new'
-  post '/signup', to: 'users#create'  
-  
+  post '/signup', to: 'users#create'
 end
