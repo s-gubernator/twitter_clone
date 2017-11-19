@@ -154,7 +154,14 @@ aside {
 }
 
 .gravatar_edit {
-  margin-top: 15px;
+  a {
+    color: $gray;
+    font-size: 1.5em;
+    &:hover {
+      color: $gray-darker;
+      text-decoration: none;
+    }
+  }   
 }
 
 /* forms */
@@ -188,6 +195,12 @@ input {
 .form_container {
   display: block;
   width: 50%;
+  margin: 0 auto;
+}
+
+.partial_form_container {
+  display: block;
+  width: 75%;
   margin: 0 auto;
 }
 
