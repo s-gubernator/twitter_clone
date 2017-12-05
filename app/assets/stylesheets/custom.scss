@@ -50,9 +50,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
+  letter-spacing: -1.5px;
+  margin-bottom: 20px;
   text-align: center;
+  color: $gray;
 }
 
 h2 {
@@ -154,7 +155,14 @@ aside {
 }
 
 .gravatar_edit {
-  margin-top: 15px;
+  a {
+    color: $gray;
+    font-size: 1.5em;
+    &:hover {
+      color: $gray-darker;
+      text-decoration: none;
+    }
+  }   
 }
 
 /* forms */
@@ -188,6 +196,12 @@ input {
 .form_container {
   display: block;
   width: 50%;
+  margin: 0 auto;
+}
+
+.partial_form_container {
+  display: block;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -226,4 +240,8 @@ input {
     padding: 10px 0;
     border-bottom: 1px solid $gray-lighter;
   }
+}
+
+.pagination {
+  margin: 0px 10px !important;
 }
