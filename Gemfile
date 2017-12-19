@@ -16,6 +16,9 @@ gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '3.3.7'
 gem 'jquery-rails'
 
+gem 'github-linguist', '~> 4.7', '>= 4.7.4'
+gem 'rugged', '~> 0.26.0'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
