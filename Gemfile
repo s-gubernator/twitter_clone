@@ -18,8 +18,8 @@ gem 'jquery-rails'
 
 gem 'rails_12factor'
 
-gem 'github-linguist', '~> 4.7', '>= 4.7.4'
-
+# gem 'github-linguist', '~> 4.7', '>= 4.7.4'
+# gem 'rugged', '~> 0.26.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -58,8 +58,7 @@ group :development, :test do
   
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
-  gem 'selenium-webdriver'
-  gem 'rugged', '~> 0.26.0' 
+  gem 'selenium-webdriver'   
 end
 
 group :development do
