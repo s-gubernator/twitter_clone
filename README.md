@@ -1,5 +1,5 @@
 # Twitter-like application
-Sample application, developed using Michael Hartl's Ruby on Rails Tutorial [* Learn Web Development with Rails *](http://www.railstutorial.org/)
+Sample application developed using Michael Hartl's tutorial [*Learn Web Development with Rails*](http://www.railstutorial.org/)
 
 ## Getting started
 To get started with the app, clone the repo and then install the needed gems:
