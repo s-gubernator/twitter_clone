@@ -7,12 +7,12 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
     get root_path
     assert_response :success
-    assert_select "title", "ToDo"
+    assert_select "title", "TwitterClone"
   end 
 
   test "should get contact" do
     get page_path('contact')
     assert_response :success
-    assert_select "title", "Contact | ToDo"
+    assert_select "title", "Contact | TwitterClone"
   end
 end
