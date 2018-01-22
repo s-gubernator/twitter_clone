@@ -1,0 +1,15 @@
+orange:
+  content: "I like oranges!"
+  created_at: <%= 10.minutes.ago %>
+
+dog:
+  content: "I hate cats"
+  created_at: <%= 3.years.ago %>
+
+cat:
+  content: "I hate dogs"
+  created_at: <%= 2.hours.ago %>
+
+most_recent:
+  content: "Just a short test"
+  created_at: <%= Time.zone.now %>
