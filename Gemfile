@@ -16,7 +16,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '3.3.7'
 gem 'jquery-rails'
 
-# gem 'rails_12factor'
+# gem 'rails_12factor', group: :production
 
 # gem 'github-linguist', '~> 4.7', '>= 4.7.4'
 # gem 'rugged', '~> 0.26.0'
