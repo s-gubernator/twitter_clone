@@ -261,16 +261,17 @@ input {
   }
   .content {
     display: block;
-    margin-left: 60px;
+    margin-left: 40px;
     img {
       display: block;
       padding: 5px 0;
     }
   }
   .timestamp {
-    color: $gray-light;
+    color: $gray-light;    
+    font-size: 0.9em;
     display: block;
-    margin-left: 60px;
+    margin-left: 55px;
   }
   .gravatar {
     float: left;
@@ -290,5 +291,18 @@ span.picture {
   margin-top: 10px;
   input {
     border: 0;
+  }
+}
+
+.profile_link {     
+  color: #005888; 
+  &:hover { 
+    color: white;   
+    background-color: #36454f;
+    border: 1px solid $gray;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
   }
 }

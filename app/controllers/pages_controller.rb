@@ -1,14 +1,11 @@
 class PagesController < ApplicationController
-	def show
-		if valid_page?
-		  render template: "pages/#{params[:page]}"
-		else
-			render file: "public/404.html", status: :not_found
-		end
-	end
+	def home
+    if logged_in?
+      @micropost  = current_user.microposts.build
+      @feed_items = current_user.feed.paginate(page: params[:page], per_page: 10)
+    end
+  end
 
-	private
-	  def valid_page?
-	  	File.exist?(Pathname.new(Rails.root + "app/views/pages/#{params[:page]}.html.erb"))
-	  end	
+  def contact
+  end	
 end
