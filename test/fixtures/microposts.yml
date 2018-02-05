@@ -1,15 +1,26 @@
 orange:
   content: "I like oranges!"
   created_at: <%= 10.minutes.ago %>
+  user: david
 
 dog:
   content: "I hate cats"
   created_at: <%= 3.years.ago %>
+  user: david 
 
 cat:
   content: "I hate dogs"
   created_at: <%= 2.hours.ago %>
+  user: david
 
 most_recent:
   content: "Just a short test"
   created_at: <%= Time.zone.now %>
+  user: david
+
+<% 30.times do |n| %>
+micropost_<%= n %>: 
+  content: <%= Faker::Lorem.sentence(5) %>
+  created_at: <%= 42.days.ago %>
+  user: david
+<% end %> 
