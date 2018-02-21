@@ -1,5 +1,8 @@
 # Twitter-like application
-Sample application developed using Michael Hartl's tutorial [*Learn Web Development with Rails*](http://www.railstutorial.org/)
+
+[![Build Status](https://travis-ci.org/s-gubernator/twitter_clone)](https://travis-ci.org/s-gubernator/twitter_clone)
+
+Sample application developed using Michael Hartl's [*tutorial*](http://www.railstutorial.org/)
 
 ## Getting started
 To get started with the app, clone the repo and then install the needed gems:
