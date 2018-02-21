@@ -1,7 +1,7 @@
-# Twitter-like application
+# Ruby on Rails Twitter Clone
 [![Build Status](https://travis-ci.org/s-gubernator/twitter_clone.svg?branch=master)](https://travis-ci.org/s-gubernator/twitter_clone)
 
-Application is based on Michael Hartl's [*tutorial*](http://www.railstutorial.org/)
+Application is based on Michael Hartl's [*tutorial*](http://www.railstutorial.org/).
 
 ## Getting started
 To get started with the app, clone the repo and then install the needed gems:
