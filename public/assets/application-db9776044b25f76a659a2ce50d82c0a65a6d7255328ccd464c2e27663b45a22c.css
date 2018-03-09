@@ -8812,22 +8812,22 @@ textarea {
 
 /* line 35, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .btn-primary {
-  border-bottom: 2px #000609 solid;
+  border-bottom: 1px #000609 solid;
   background: #005888;
 }
 /* line 38, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .btn-primary:hover {
-  border-bottom: 2px #000609 solid;
+  border-bottom: 1px #000609 solid;
   background: #22485F;
 }
 
 /* typography */
-/* line 47, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 46, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
-/* line 51, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 50, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 h1 {
   font-size: 3em;
   letter-spacing: -1.5px;
@@ -8836,7 +8836,7 @@ h1 {
   color: #555555;
 }
 
-/* line 59, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 58, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
@@ -8846,20 +8846,20 @@ h2 {
   color: #777777;
 }
 
-/* line 68, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 67, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
 
 /* header */
-/* line 75, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 74, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .navbar-fixed-top {
   background-color: #36454f;
   border-bottom: 1px solid #eeeeee;
 }
 
-/* line 80, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 79, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 #logo {
   float: left;
   margin-right: 10px;
@@ -8869,70 +8869,70 @@ p {
   padding-top: 9px;
   font-weight: bold;
 }
-/* line 88, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 87, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 #logo:hover {
   color: white;
   text-decoration: none;
 }
 
-/* line 94, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 93, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .dropdown-toggle:active, .open .dropdown-toggle {
   background-color: #22485f !important;
 }
 
 /* footer */
-/* line 100, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 99, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777777;
 }
-/* line 105, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 104, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 footer a {
   color: #555555;
 }
-/* line 107, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 106, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 footer a:hover {
   color: #222222;
 }
-/* line 111, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 110, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 footer small {
   float: left;
 }
-/* line 114, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 113, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 footer ul {
   float: right;
   list-style: none;
 }
-/* line 117, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 116, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 footer ul li {
   float: left;
   margin-left: 15px;
 }
 
 /* sidebar */
-/* line 127, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 126, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 aside section.user_info {
   margin-top: 20px;
 }
-/* line 130, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 129, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 aside section {
   padding: 10px 0;
   margin-top: 20px;
 }
-/* line 133, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 132, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 aside section:first-child {
   border: 0;
   padding-top: 0;
 }
-/* line 137, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 136, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 aside section span {
   display: block;
   margin-bottom: 3px;
   line-height: 1;
 }
-/* line 142, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 141, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 aside section h1 {
   font-size: 1.4em;
   text-align: left;
@@ -8941,25 +8941,72 @@ aside section h1 {
   margin-top: 0px;
 }
 
-/* line 152, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 151, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .gravatar {
   float: left;
   margin-right: 10px;
 }
 
-/* line 158, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 157, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .gravatar_edit a {
   color: #555555;
   font-size: 1.5em;
 }
-/* line 161, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 160, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .gravatar_edit a:hover {
   color: #222222;
   text-decoration: none;
 }
 
+/* line 167, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+.stats {
+  overflow: auto;
+  margin-top: 0;
+  padding: 0;
+}
+/* line 171, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+.stats a {
+  float: left;
+  padding: 0 10px;
+  border-left: 1px solid #eeeeee;
+  color: gray;
+}
+/* line 176, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+.stats a:first-child {
+  padding-left: 0;
+  border: 0;
+}
+/* line 180, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+.stats a:hover {
+  text-decoration: none;
+  color: #005888;
+}
+/* line 185, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+.stats strong {
+  display: block;
+}
+
+/* line 190, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+.user_avatars {
+  overflow: auto;
+  margin-top: 10px;
+}
+/* line 193, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+.user_avatars .gravatar {
+  margin: 1px 1px;
+}
+/* line 196, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+.user_avatars a {
+  padding: 0;
+}
+
+/* line 201, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+.users.follow {
+  padding: 0;
+}
+
 /* forms */
-/* line 170, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 207, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
@@ -8969,60 +9016,60 @@ input, textarea, select, .uneditable-input {
   box-sizing: border-box;
 }
 
-/* line 177, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 214, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 input {
   height: auto !important;
 }
 
-/* line 181, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 218, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 #error_explanation {
   color: red;
 }
-/* line 183, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 220, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 #error_explanation ul {
   color: red;
   margin: 0 0 30px 0;
 }
 
-/* line 191, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 228, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .field_with_errors .form-control {
   color: #a94442;
 }
 
-/* line 196, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 233, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .form_container {
   display: block;
   width: 50%;
   margin: 0 auto;
 }
 
-/* line 202, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 239, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .partial_form_container {
   display: block;
   width: 75%;
   margin: 0 auto;
 }
 
-/* line 208, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 245, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .checkbox {
   margin-top: -17px;
   margin-bottom: 10px;
   margin-left: -14px;
 }
-/* line 212, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 249, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .checkbox span {
   margin-left: 20px;
   font-weight: normal;
 }
 
-/* line 218, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 255, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 #session_remember_me {
   width: auto;
   margin-left: 0;
 }
 
 /* miscellaneous */
-/* line 225, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 262, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .debug_dump {
   clear: both;
   float: left;
@@ -9034,91 +9081,86 @@ input {
 }
 
 /* Users index */
-/* line 235, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 272, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .users {
   list-style: none;
   margin: 0;
 }
-/* line 238, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 275, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .users li {
   overflow: auto;
   padding: 10px 0;
   border-bottom: 1px solid #eeeeee;
 }
 
-/* line 245, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 282, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .pagination {
   margin: 0px 10px !important;
 }
 
 /* microposts */
-/* line 251, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 288, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .microposts {
   list-style: none;
   padding: 0;
 }
-/* line 254, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 291, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .microposts li {
   padding: 10px 0;
   border-top: 1px solid #e8e8e8;
 }
-/* line 258, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 295, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .microposts .user {
   margin-top: 5em;
   padding-top: 0;
 }
-/* line 262, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 299, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .microposts .content {
   display: block;
   margin-left: 40px;
 }
-/* line 265, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 302, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .microposts .content img {
   display: block;
   padding: 5px 0;
 }
-/* line 270, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 307, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .microposts .timestamp {
   color: #777777;
   font-size: 0.9em;
   display: block;
   margin-left: 55px;
 }
-/* line 276, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 313, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .microposts .gravatar {
   float: left;
   margin-right: 10px;
   margin-top: 5px;
 }
 
-/* line 284, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 321, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 aside textarea {
   height: 100px;
   margin-bottom: 5px;
 }
 
-/* line 290, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 327, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 span.picture {
   margin-top: 10px;
 }
-/* line 292, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 329, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 span.picture input {
   border: 0;
 }
 
-/* line 297, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 334, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .profile_link {
-  color: #005888;
+  color: gray;
 }
-/* line 299, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
+/* line 336, /home/master/projects/twitter_clone/app/assets/stylesheets/custom.scss */
 .profile_link:hover {
-  color: white;
-  background-color: #36454f;
-  border: 1px solid #555555;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
   text-decoration: none;
+  color: #005888;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
