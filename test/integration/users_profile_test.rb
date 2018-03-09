@@ -14,6 +14,14 @@ class UsersProfileTest < ActionDispatch::IntegrationTest
     assert_select 'h1', text: @user.name
     assert_select 'h1>img.gravatar'
     assert_match @user.microposts.count.to_s, response.body
+
+    assert_template 'shared/_stats'
+    assert_select 'strong#following', text: @user.following.count.to_s
+    assert_select 'strong#followers', text: @user.followers.count.to_s
+
+    # assert_match @user.following.count.to_s, response.body
+    # assert_match @user.followers.count.to_s, response.body
+
     assert_select 'div.pagination'
     @user.microposts.paginate(page: 1, per_page: 10).each do |micropost|
       assert_match micropost.content, response.body

@@ -1,1 +1,15 @@
-# empty
+one:
+  follower: david
+  followed: lana
+
+two:
+  follower: david 
+  followed: malory
+
+three:
+  follower: lana
+  followed: david
+
+four:
+  follower: adam
+  followed: david
