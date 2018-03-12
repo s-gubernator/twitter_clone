@@ -3,6 +3,8 @@
 
 Application is based on Michael Hartl's [*tutorial*](http://www.railstutorial.org/). All features from this book are being implemented.
 
+![Screenshot](public/screenshot_1.png?raw=true "Screenshot")
+
 ## Getting started
 To get started with the app, clone the repo and then install the needed gems:
 ```
