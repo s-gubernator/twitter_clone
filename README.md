@@ -32,8 +32,7 @@ If the test suite passes, you'll be ready to run the app in a local server:
 $ rails server
 ```
 ## On the live Web
-[twitter_clone](https://twitter-clone-s-gubernator.herokuapp.com/ "Twitter Clone")
-Example User:
+Example user for [application](https://twitter-clone-s-gubernator.herokuapp.com/ "Twitter Clone"):
 ```
 email: example@railstutorial.org
 password: foobar
